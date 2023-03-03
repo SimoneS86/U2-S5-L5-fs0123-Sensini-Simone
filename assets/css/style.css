@@ -1,6 +1,9 @@
 body {
   font-family: "Spectral", serif;
 }
+.padre {
+  position: relative;
+}
 nav {
   box-sizing: border-box;
   width: 100%;
@@ -12,7 +15,7 @@ nav {
   border-bottom: 1px solid #191919;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 99;
 }
 .gruppo {
   display: flex;
@@ -118,7 +121,6 @@ nav {
 }
 .cardS1 img {
   border-radius: 50%;
-  overflow: hidden;
   margin-right: 20px;
   scale: 0.7;
 }
@@ -175,6 +177,17 @@ hr {
 .part2 img {
   width: 220px;
 }
-.cardS3 img {
-  align-items: baseline;
+.cardS3 a {
+  color: rgb(127, 127, 127);
+  border-radius: 50px;
+  background-color: rgb(239, 239, 239);
+  text-decoration: none;
+  padding-inline: 12px;
+  padding-block: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.cardS3 a:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.8);
+  background-color: rgb(200, 200, 200);
 }
