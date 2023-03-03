@@ -175,3 +175,6 @@ hr {
 .part2 img {
   width: 220px;
 }
+.cardS3 img {
+  align-items: baseline;
+}
