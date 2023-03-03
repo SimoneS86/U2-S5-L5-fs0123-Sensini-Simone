@@ -34,6 +34,7 @@ nav {
   padding-inline: 15%;
   height: 450px;
   box-sizing: border-box;
+  position: relative;
 }
 .n1 {
   display: flex;
@@ -61,4 +62,72 @@ nav {
   padding-block: 4px;
   width: 200px;
   margin-bottom: 10px;
+}
+.n2 {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.trend {
+  display: flex;
+  align-items: center;
+  padding-inline: 15%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.trend .trendImg,
+.testo {
+  box-sizing: border-box;
+}
+.testo {
+  margin-left: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 550;
+}
+.container {
+  padding-inline: 15%;
+}
+.card {
+  display: flex;
+}
+.card h3 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(219, 219, 219);
+  font-size: 38px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+.contPiccolo {
+  display: flex;
+  flex-direction: column;
+}
+.cardS1 {
+  display: flex;
+  align-items: center;
+}
+.cardS1 img {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+  scale: 0.7;
+}
+.cardS2 {
+  font-size: 1.2rem;
+  font-weight: 1000;
+  margin-top: 10px;
+}
+
+.cardS3 {
+  display: flex;
+  position: relative;
+  margin-top: 18px;
+}
+.cardS3 div {
+  margin-right: 15px;
+}
+.punto {
+  position: absolute;
+  top: -4px;
+  left: 47px;
 }
