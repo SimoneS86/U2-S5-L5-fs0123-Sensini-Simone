@@ -10,6 +10,9 @@ nav {
   padding-block: 18px;
   padding-inline: 15%;
   border-bottom: 1px solid #191919;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .gruppo {
   display: flex;
@@ -140,4 +143,35 @@ nav {
   position: absolute;
   top: -4px;
   left: 54px;
+}
+hr {
+  color: rgb(226, 226, 226);
+  opacity: 0.3;
+}
+.containerFinale {
+  margin-inline: 15%;
+  display: flex;
+}
+.sinistra {
+  width: 60%;
+}
+.card2 {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.part1 {
+  display: flex;
+  flex-direction: column;
+}
+.cardS2_2 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+#plus {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.part2 img {
+  width: 220px;
 }
