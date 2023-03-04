@@ -4,12 +4,12 @@ window.addEventListener('scroll', function() {
     if (window.pageYOffset > 500) {
       navbar.style.backgroundColor = "white"
       nav_button.style.backgroundColor = "#1a8917"
-      navbar.style.transition = 'background-color 1s ease';
-      nav_button.style.transition = 'background-color 1s ease';
+      navbar.style.transition = 'background-color 0.7s ease';
+      nav_button.style.transition = 'background-color 0.7s ease';
     } else {
         navbar.style.backgroundColor = "#ffc017"
         nav_button.style.backgroundColor = "#191919"
-        navbar.style.transition = 'background-color 1s ease';
-        nav_button.style.transition = 'background-color 1s ease';
+        navbar.style.transition = 'background-color 0.7s ease';
+        nav_button.style.transition = 'background-color 0.7s ease';
     }
   });
