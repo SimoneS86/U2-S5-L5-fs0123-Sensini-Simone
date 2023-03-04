@@ -136,14 +136,15 @@ nav {
   position: relative;
   margin-top: 18px;
   margin-bottom: 38px;
+  align-items: center;
 }
 .cardS3 div {
   margin-right: 15px;
 }
 .punto {
   position: absolute;
-  top: -4px;
-  left: 54px;
+  top: -2px;
+  left: 53px;
 }
 hr {
   color: rgb(226, 226, 226);
@@ -152,9 +153,11 @@ hr {
 .containerFinale {
   margin-inline: 15%;
   display: flex;
+  margin-top: 80px;
 }
 .sinistra {
-  width: 60%;
+  width: 63%;
+  margin-right: 70px;
 }
 .card2 {
   display: flex;
@@ -190,4 +193,40 @@ hr {
   transform: scale(1.1);
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.8);
   background-color: rgb(200, 200, 200);
+}
+.destra {
+  display: flex;
+  flex-direction: column;
+  width: 37%;
+  padding-inline: 20px;
+}
+.destra h3 {
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.sessione1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.sessione1 a {
+  border: 1px solid gray;
+  padding: 10px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.sessione2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  border-top: 1px solid rgba(226, 226, 226, 0.9);
+}
+.sessione2 a {
+  padding: 10px;
+  text-decoration: none;
+  margin-right: 6px;
+}
+.sticky {
 }
