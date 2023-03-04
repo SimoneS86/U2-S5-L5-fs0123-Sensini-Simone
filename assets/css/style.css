@@ -13,7 +13,7 @@ nav {
   padding-block: 18px;
   padding-inline: 15%;
   border-bottom: 1px solid #191919;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 99;
 }
@@ -198,10 +198,13 @@ hr {
   display: flex;
   flex-direction: column;
   width: 37%;
+  height: 300px;
   padding-inline: 20px;
+  position: sticky;
+  top: 78px;
 }
 .destra h3 {
-  margin-bottom: 20px;
+  margin-block: 24px;
   font-size: 1.3rem;
   font-weight: 700;
 }
@@ -216,6 +219,7 @@ hr {
   text-decoration: none;
   margin-right: 10px;
   margin-bottom: 10px;
+  color: rgb(127, 127, 127);
 }
 .sessione2 {
   display: flex;
@@ -227,6 +231,5 @@ hr {
   padding: 10px;
   text-decoration: none;
   margin-right: 6px;
-}
-.sticky {
+  color: rgb(127, 127, 127);
 }
