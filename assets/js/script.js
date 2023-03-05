@@ -13,3 +13,11 @@ window.addEventListener('scroll', function() {
         nav_button.style.transition = 'background-color 0.7s ease';
     }
   });
+
+  function animation() {
+    let emme = document.querySelectorAll("svg path")
+    let random = Math.floor(Math.random() * emme.length)
+    let emmeNow = emme[random]
+    emmeNow.style.opacity == "0" ? emmeNow.style.opacity = 1 : emmeNow.style.opacity = 0
+  }
+  setInterval(animation, 70)
